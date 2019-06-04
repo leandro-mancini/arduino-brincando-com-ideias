@@ -15,6 +15,12 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(rele1, HIGH);
+  delay(1000);
+  digitalWrite(rele1, LOW);
+  delay(1000);
+  
+  /*
   bool botaoVm = digitalRead(pinVm);
   bool botaoVd = digitalRead(pinVd);
 
@@ -35,6 +41,7 @@ void loop() {
   }
 
   delay(300);
+  */
 }
 
 bool leBotao(int porta) {
